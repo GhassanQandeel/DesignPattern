@@ -1,57 +1,45 @@
-# Design Patterns Implementation 🚀
+# Creational Design Patterns 🏗️
 
-This repository contains implementations of common software design patterns using Java.  
-The goal of this project is to deeply understand each pattern by applying it in real code.
+This branch focuses on implementing **Creational Design Patterns** in Java.
 
----
-
-## 📌 Objectives
-- Learn and implement all major design patterns
-- Understand when and why to use each pattern
-- Practice clean code and best practices
-- Build a solid foundation for software architecture
+Creational patterns deal with object creation mechanisms, trying to create objects in a manner suitable to the situation while promoting flexibility and reuse.
 
 ---
 
-
-Each pattern will have its own folder and example.
-
----
-
-## 🧩 Patterns Covered
-
-### 🔹 Creational Patterns
-- Singleton
-- Factory Method
-- Abstract Factory
-- Builder
-- Prototype
-
-### 🔹 Structural Patterns
-- Adapter
-- Bridge
-- Composite
-- Decorator
-- Facade
-- Flyweight
-- Proxy
-
-### 🔹 Behavioral Patterns
-- Chain of Responsibility
-- Command
-- Iterator
-- Mediator
-- Memento
-- Observer
-- State
-- Strategy
-- Template Method
-- Visitor
+## 📌 Goals
+- Understand how objects are created and managed
+- Reduce tight coupling between classes
+- Improve code flexibility and scalability
 
 ---
 
-## ⚙️ How to Run
+## 🧩 Patterns Implemented
 
-1. Clone the repository:
-```bash
-git clone https://github.com/your-username/design-patterns.git
+### 🔹 Singleton
+Ensures a class has only one instance and provides a global point of access.
+
+### 🔹 Factory Method
+Defines an interface for creating an object but lets subclasses decide which class to instantiate.
+
+### 🔹 Abstract Factory
+Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
+
+### 🔹 Builder
+Separates the construction of a complex object from its representation.
+
+### 🔹 Prototype
+Creates new objects by copying an existing object.
+
+---
+
+## 🧱 Project Structure
+
+
+
+    src/
+        └── creational/
+        ├── singleton/
+        ├── factory/
+        ├── abstractfactory/
+        ├── builder/
+        └── prototype/
